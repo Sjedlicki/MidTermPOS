@@ -90,7 +90,7 @@ namespace MidTermPOS
         }
         public static bool PurchaseMore()
         {
-            Console.WriteLine("Would you like to Purchase More? (y/n)");
+            Console.Write("Would you like to Purchase More? (y/n): ");
             string userContinue = Console.ReadLine().ToLower();
             bool run;
             if (userContinue == "y")
